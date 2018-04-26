@@ -1,0 +1,56 @@
+body{
+	 background-image:url(images/green.jpg);
+	 background-size:cover;
+}
+.header{
+	margin-left:250px;
+	margin-bottom:100px;
+	
+}
+ul{
+	margin:0px;padding:0px;
+}
+ul li a {
+	text-decoration:none;
+	color:white;
+	display:block;
+}
+ul li{
+	float:left;
+	width:200px;
+	height:40px;
+	background-color:black;
+     font-size:20px;
+	 line-height:40px;
+	 text-align:center;
+	 opacity:.8;
+	 font-family:COMIC SANS MS;
+	
+}
+
+
+ul li a:hover{background-color:orange;}
+ul  li  ul  li{
+	display:none;
+}
+
+ul  li:hover ul  li{
+	display:block;
+}
+.main{
+	width:1000px;
+	height:500px;
+		background-image:url(images/green.jpg);
+		background-size:cover;
+	float:left;
+	margin-left:250px;
+}
+.footer{
+	width:800px;
+	height:25px;
+	background-color:black;
+	opacity:.8;
+	float:left;
+	margin-left:250px;
+	
+}
